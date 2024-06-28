@@ -13,3 +13,15 @@
   width: 80px;
   height: 80px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* alternative way to center along cross-axis
+.box {
+  align-self: center;
+} */
