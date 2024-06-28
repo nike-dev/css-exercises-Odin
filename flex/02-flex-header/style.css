@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
@@ -22,4 +27,28 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.left-links > ul,
+.right-links > ul {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+
+.right-links {
+  margin-left: auto;
 }
