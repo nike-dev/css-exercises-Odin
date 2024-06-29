@@ -43,7 +43,5 @@ img {
 }
 
 .image-text {
-  display: flex;
-  flex-flow: column nowrap;
-  flex-basis: 200px;
+ max-width: 200px;
 }
