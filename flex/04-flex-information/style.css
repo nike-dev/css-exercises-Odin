@@ -24,3 +24,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*SOLUTION*/
+
+.main-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  row-gap: 32px;
+  text-align: center;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 52px;
+}
+
+.image-text {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-basis: 200px;
+}
